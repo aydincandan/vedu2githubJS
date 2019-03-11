@@ -17,9 +17,24 @@
 <body ng-app="mainApp">
 -------------- navi -----------------
   <div ng-view>
-    m y i n d e x
+    my i n d e x
   </div>
 -------------- foot -----------------
 </body>
+
+
+<script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCfJMkQZJ-bvlbSh_rgG0x8WEmvwLohX50",
+    authDomain: "vedubox1.firebaseapp.com",
+    databaseURL: "https://vedubox1.firebaseio.com",
+    projectId: "vedubox1",
+    storageBucket: "vedubox1.appspot.com",
+    messagingSenderId: "637293835202"
+  };
+  firebase.initializeApp(config);
+</script>
 
 </html>
